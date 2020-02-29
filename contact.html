@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Kunal Patadiak | Contact</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="img/inf.gif" class="infGif">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="photos.html">Photos</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="intro-contact">
+        <span class="contact-head">Contact</span>
+        <br />
+        <br />
+        <form>
+            <div class="contact-form">
+                <label>Name: </label><br />
+                <input type="text" id="name" placeholder="Enter Your Name" style="width: 190px; height: 30px">
+            </div>
+
+            <div class="contact-form">
+                <label>Email: </label><br />
+                <input type="email" id="email" placeholder="Enter Your Email" style="width: 190px; height: 30px">
+            </div>
+
+            <div class="contact-form">
+                <label>Phone number: </label><br />
+                <input type="text" id="phone" placeholder="Enter Phone Number" style="width: 190px; height: 30px">
+            </div>
+
+            <div class="contact-form">
+                <label>Message: </label><br/>
+                <textarea id="message" style="width: 200px; height: 100px" placeholder="Enter Message"></textarea>
+            </div>
+            <input type="submit" name="Submit" class="contact-form" id="submitBtn">
+        </form>
+        <div class="scroll"><b>Submitted Info</b><br />
+            <span id="postResult"></span>
+        </div>
+        <div class="scroll2"><b>Source cited</b><br />
+            <span>Background Image: <a href="https://nomadgoods.com/pages/wallpapers" target="_blank">nomadgoods.com/pages/wallpapers</a> </span>
+            <br />
+            <span>Gif logo: <a href="https://giphy.com/" target="_blank">giphy.com</a> </span>
+        </div>
+    </div>
+
+
+    <script src="control.js"></script>
+</body>
+</html>

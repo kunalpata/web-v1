@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kunal Patadia | Home</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="img/inf.gif" class="infGif">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="photos.html">Photos</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="intro-home">
+        <span class="my-name">Kunal Patadia</span>
+        <br />
+        <span class="desc">Programmer | </span>
+        <span class="desc">Photographer | </span>
+        <span class="desc">Filmmaker</span>
+    </div>
+
+    <!--Bootstrap -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url(img/treasure.jpg)">
+                <img src="img/treasure.jpg" id="greece">
+            </div>
+            <div class="carousel-item" style="background-image: url(img/turkey.jpg)">
+                <img src="img/turkey.jpg">
+            </div>
+            <div class="carousel-item" style="background-image: url(img/ferry2.jpg); height: 1000px">
+                <img src="img/ferry2.jpg">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+    <script src="control.js"></script>
+</body>
+</html>
